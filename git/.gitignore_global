@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+*.iml
+
+json.json
+xml.xml
+txt.txt

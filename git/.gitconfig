@@ -1,0 +1,13 @@
+[user]
+	name = Alex Korotkikh
+	email = me@alexkorotkikh.com
+
+[core]
+	excludesfile = ~/.gitignore_global
+
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
