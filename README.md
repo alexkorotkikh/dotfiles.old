@@ -1,1 +1,1 @@
-inspired by https://github.com/webpro/dotfiles
+inspired by <https://github.com/webpro/dotfiles>
