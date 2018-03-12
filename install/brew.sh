@@ -25,6 +25,7 @@ apps=(
   git-extras
   gpg2
   gnu-sed --with-default-names
+  go
   grep --with-default-names
   hub
   httpie
