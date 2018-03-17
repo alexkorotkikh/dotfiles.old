@@ -24,8 +24,7 @@ packages=(
   spot
   superstatic
   svgo
-  tldr
   underscore-cli
 )
 
-npm install -g "${packages[@]}"
+sudo npm install -g "${packages[@]}"
