@@ -10,6 +10,7 @@ brew tap caskroom/fonts
 # Install packages
 
 apps=(
+  docker
   font-fira-code
   google-chrome
   iterm2
