@@ -12,7 +12,7 @@ brew tap caskroom/fonts
 apps=(
   font-fira-code
   google-chrome
-  iterm
+  iterm2
   monosnap
   skype
   telegram
