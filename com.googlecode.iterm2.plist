@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AlternateMouseScroll</key>
+	<false/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
 	<key>AppleScrollAnimationEnabled</key>
@@ -13,6 +15,8 @@
 	<key>Default Bookmark Guid</key>
 	<string>685C6B76-090E-4A62-A2E3-CD7551A81CF9</string>
 	<key>DimBackgroundWindows</key>
+	<true/>
+	<key>DoubleReportScrollWheel</key>
 	<true/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
@@ -58,10 +62,12 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>330 306 620 392 0 0 1280 800 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>260 153 796 473 0 0 1280 800 </string>
+	<string>260 205 1018 447 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 125 890 652 0 0 1280 777 </string>
+	<string>0 0 1280 800 0 0 1280 777 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -720,8 +726,10 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-03-17T14:28:40Z</date>
+	<date>2018-05-25T20:18:11Z</date>
 	<key>SUSendProfileInfo</key>
+	<false/>
+	<key>SensitiveScrollWheel</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
 	<real>0.45132461939102564</real>
@@ -730,6 +738,6 @@
 	<key>WordCharacters</key>
 	<string></string>
 	<key>iTerm Version</key>
-	<string>3.1.5</string>
+	<string>3.1.6</string>
 </dict>
 </plist>
