@@ -1,3 +1,5 @@
+export PATH=/bin:/usr/local/opt/gettext/bin:~/.bin:~/.dotfiles/bin:$PATH
+
 for DOTFILE in `find ~/.dotfiles`; do
   [ -f “$DOTFILE” ] && source “$DOTFILE”
 done
@@ -7,6 +9,7 @@ if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
   source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
 fi
 
-source ~/.git-completion.bash 
+source ~/.dotfiles/system/.alias
+source ~/.dotfiles/system/.functions
 
-export PATH=/bin:/usr/local/opt/gettext/bin:~/.bin:$PATH
+source ~/.git-autocompletion.bash

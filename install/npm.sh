@@ -15,6 +15,7 @@ nvm alias default 8
 # Globally install with npm
 
 packages=(
+  create-react-app
   get-port-cli
   gtop
   historie
