@@ -8,7 +8,5 @@ if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
 fi
 
 source ~/.git-completion.bash 
-eval $(thefuck --alias)
-[[ $TERM != "screen" ]] && exec tmux
 
 export PATH=/bin:/usr/local/opt/gettext/bin:~/.bin:$PATH
