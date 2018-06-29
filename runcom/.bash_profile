@@ -1,4 +1,4 @@
-export PATH=/bin:/usr/local/opt/gettext/bin:~/.bin:~/.dotfiles/bin:$PATH
+export PATH=/bin:/usr/local/opt/gettext/bin:~/.local/bin:~/.bin:~/.dotfiles/bin:$PATH
 
 for DOTFILE in `find ~/.dotfiles`; do
   [ -f “$DOTFILE” ] && source “$DOTFILE”
