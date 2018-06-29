@@ -13,5 +13,3 @@ source ~/.dotfiles/system/.alias
 source ~/.dotfiles/system/.functions
 
 source ~/.git-autocompletion.bash
-eval $(thefuck --alias)
-[[ $TERM != "screen" ]] && exec tmux
