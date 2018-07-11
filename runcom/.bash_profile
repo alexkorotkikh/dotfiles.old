@@ -1,4 +1,4 @@
-export PATH=/bin:/usr/local/opt/gettext/bin:~/.local/bin:~/.bin:~/.dotfiles/bin:$PATH
+export PATH=/bin:/usr/local/opt/gettext/bin:~/.bin:~/.dotfiles/bin:~/.local/bin:$PATH
 
 for DOTFILE in `find ~/.dotfiles`; do
   [ -f “$DOTFILE” ] && source “$DOTFILE”
@@ -12,4 +12,4 @@ fi
 source ~/.dotfiles/system/.alias
 source ~/.dotfiles/system/.functions
 
-source ~/.git-autocompletion.bash
+source ~/.git-completion.bash
