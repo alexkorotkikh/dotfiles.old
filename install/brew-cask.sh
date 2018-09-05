@@ -13,6 +13,7 @@ apps=(
   docker
   font-fira-code
   google-chrome
+  intellij-idea
   iterm2
   monosnap
   skype
