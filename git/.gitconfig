@@ -4,12 +4,14 @@
 
 [core]
 	excludesfile = ~/.gitignore_global
+	autocrlf = input
 
 [alias]
 	co = checkout
 	br = branch
 	ci = commit
 	st = status
+	cp = cherry-pick
 	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
 
 [color]
