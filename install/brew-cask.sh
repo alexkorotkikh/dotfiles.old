@@ -10,12 +10,14 @@ brew tap caskroom/fonts
 # Install packages
 
 apps=(
+  bartender
   docker
   font-fira-code
   google-chrome
   intellij-idea
   iterm2
   monosnap
+  paste
   skype
   telegram
   virtualbox
