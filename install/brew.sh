@@ -13,6 +13,7 @@ brew upgrade
 
 apps=(
   bash-completion2
+  bash-git-prompt
   bats
   battery
   coreutils
@@ -33,7 +34,7 @@ apps=(
   jq
   lynx
   mackup
-  nano
+  maven
   pandoc
   peco
   psgrep

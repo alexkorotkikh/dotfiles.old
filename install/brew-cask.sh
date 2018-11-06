@@ -16,7 +16,6 @@ apps=(
   google-chrome
   intellij-idea
   iterm2
-  monosnap
   paste
   skype
   telegram
