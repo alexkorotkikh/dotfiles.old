@@ -67,7 +67,7 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>269 83 918 512 0 0 1440 877 </string>
+	<string>269 175 796 486 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 1440 900 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -603,7 +603,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Menlo-Regular 14</string>
+			<string>Menlo-Regular 16</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<false/>
 			<key>Option Key Sends</key>
@@ -667,7 +667,7 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>Working Directory</key>
 			<string>/Users/alexkorotkikh</string>
 		</dict>
@@ -678,6 +678,8 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>2AC232BA-3403-417B-8CA6-098ACCD34664</string>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>563122584.22693205</real>
 	<key>OpenTmuxWindowsIn</key>
@@ -732,7 +734,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-11-05T14:57:41Z</date>
+	<date>2018-11-08T10:12:08Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SensitiveScrollWheel</key>
