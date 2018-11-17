@@ -1,5 +1,5 @@
 [user]
-	name = Alex Korotkikh
+	name = Alex Korotkykh
 	email = me@alexkorotkikh.com
 
 [core]
@@ -11,6 +11,7 @@
 	br = branch
 	ci = commit
 	st = status
+	cp = cherry-pick
 	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
 
 [color]

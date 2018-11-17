@@ -22,8 +22,13 @@ if is-executable git -a -d "$DOTFILES_DIR/.git"; then git --work-tree="$DOTFILES
 ln -sfv "$DOTFILES_DIR/runcom/.bash_profile" ~
 ln -sfv "$DOTFILES_DIR/runcom/.inputrc" ~
 ln -sfv "$DOTFILES_DIR/runcom/.tmux.conf" ~
+ln -sfv "$DOTFILES_DIR/runcom/.vimrc" ~
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
+ln -sfv "$DOTFILES_DIR/git/.git-completion.bash" ~
+
+# Dirs for VIM
+mkdir -p ~/.vim/files/{backup,swap,undo,info}
 
 source ~/.bash_profile
 
@@ -31,6 +36,9 @@ source ~/.bash_profile
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap caskroom/cask
 brew tap caskroom/versions
+
+brew install npm
+brew cask install java
 
 # Package managers & packages
 
