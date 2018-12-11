@@ -15,5 +15,5 @@ fi
 
 source ~/.dotfiles/system/.alias
 source ~/.dotfiles/system/.functions
+
 source ~/.git-completion.bash
-source ~/.bashrc
