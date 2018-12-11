@@ -1,6 +1,6 @@
 [user]
 	name = Alex Korotkykh
-	email = me@alexkorotkikh.com
+	email = alex.korotkykh@zalando.de
 
 [core]
 	excludesfile = ~/.gitignore_global
