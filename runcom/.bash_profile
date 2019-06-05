@@ -1,4 +1,5 @@
 export PATH=/bin:/usr/local/opt/gettext/bin:~/.bin:~/.dotfiles/bin:~/.local/bin:$PATH
+export EDITOR=vim
 
 for DOTFILE in `find ~/.dotfiles`; do
   [ -f “$DOTFILE” ] && source “$DOTFILE”
