@@ -30,6 +30,12 @@ ln -sfv "$DOTFILES_DIR/git/.git-completion.bash" ~
 
 # Dirs for VIM
 mkdir -p ~/.vim/files/{backup,swap,undo,info}
+mkdir -p ~/.vim/colors
+git clone git@github.com:altercation/vim-colors-solarized.git
+cd vim-colors-solarized/colors
+mv solarized.vim ~/.vim/colors/
+cd ../..
+rm -rf vim-colors-solarized
 
 source ~/.bash_profile
 
