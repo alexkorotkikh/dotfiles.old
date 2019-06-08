@@ -1,5 +1,8 @@
 export PATH=/bin:/usr/local/opt/gettext/bin:~/.bin:~/.dotfiles/bin:~/.local/bin:$PATH
 
+export GOPATH=${HOME}/go
+export GOROOT=/usr/local/Cellar/go/1.11.5/libexec
+
 for DOTFILE in `find ~/.dotfiles`; do
   [ -f “$DOTFILE” ] && source “$DOTFILE”
 done
@@ -17,3 +20,7 @@ source ~/.dotfiles/system/.alias
 source ~/.dotfiles/system/.functions
 
 source ~/.git-completion.bash
+
+if [[ -f ~/.bashrc ]]; then
+  . ~/.bashrc
+fi
